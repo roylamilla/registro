@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background:#f4f4f4;
+}
+
+/* INICIO */
+
+.contenedor-inicio{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    gap:40px;
+}
+
+.card{
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.card button{
+    padding:10px 20px;
+    border:none;
+    background:#007bff;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+/* FORMULARIO */
+
+.form-contenedor{
+    width:400px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+}
+
+.form-contenedor form{
+    display:flex;
+    flex-direction:column;
+}
+
+.form-contenedor input,
+.form-contenedor select{
+    margin-bottom:15px;
+    padding:10px;
+}
+
+.botones{
+    display:flex;
+    gap:10px;
+}
+
+.botones button{
+    padding:10px;
+    border:none;
+    background:#28a745;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+/* TABLA */
+
+.tabla-contenedor{
+    width:80%;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th,
+table td{
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+}
+
+table th{
+    background:#007bff;
+    color:white;
+}
